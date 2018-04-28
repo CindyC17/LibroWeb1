@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Tarifa</title>
+</head>
+<body>
+<form action="/my-handling-form-page" method="post">
+
+    <fieldset>
+
+        <legend> Registro de tarifas</legend>
+
+        <br>
+        <br>
+
+        <fieldset>
+
+             <legend> Datos Generales</legend>
+        <br>
+        <br>
+      <div>
+        <label for="vehiculo">Tipo de vehiculo:</label>
+        <input type="text" id="vehiculo" />
+      </div>
+      <div>
+            <label for="hora">Valor Hora:</label>
+            <input type="text" id="hora" />
+      </div>
+      <div>
+            <label for="noche">Valor Noche</label>
+            <input type="text" id="noche" />
+      </div>
+      <div>
+            <label for="mes">Valor Por Mes</label>
+            <input type="text" id="mes" />
+      </div>
+      <div>
+            Estado
+            <select name="estado">
+
+                <option> </option>
+                <option>Activo</option>
+                <option>Inactivo</option>
+            </select>
+      </div>
+        <br>
+    </fieldset>
+        <br>
+
+    <div class="button">
+        <button type="submit">Registrar</button>
+    <!--</div>
+
+    <div class="button">-->
+        <button type="submit">Cancelar</button>
+    </div>
+    </fieldset>
+</form>
+</body>
+</html>
